@@ -111,6 +111,10 @@ require_once("include/header.php");
                                 <td>Stock Analysis</td>
                                 <td><?= isset($response->ItemStockLevelResult->StockAnalysis) ? $response->ItemStockLevelResult->StockAnalysis : ''; ?></td>
                             </tr>
+                            <tr>
+                                <td>Stock Analysis</td>
+                                <td><?= isset($response->ItemStockLevelResult->StockAnalysis) ? $response->ItemStockLevelResult->StockAnalysis : ''; ?></td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
